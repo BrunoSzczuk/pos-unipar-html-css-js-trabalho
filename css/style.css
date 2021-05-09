@@ -1,0 +1,53 @@
+#produtos article  {
+    background-color: rgb(221, 218, 218);
+    padding: 5px;
+    float: left;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-weight: bold;
+}
+
+html {
+    font-size: 12px;
+}
+body {
+    font-family: "Roboto";
+    color: rgb(57, 61, 65);
+    font-size: 12px;
+}
+#produtos {
+    margin: 10px 20px;
+    padding: 20px ;
+    overflow: hidden;
+    background-color: rgb(160, 199, 236);
+}
+
+#produtos article {
+    background-color: white;
+}
+#produtos article img {
+    float: left;
+    height: 48px;
+    margin: 10px;
+}
+
+#carrinho {
+    margin: 10px 20px;
+    overflow: hidden;
+    background-color: rgb(206, 200, 200);
+}
+
+#carrinho article {
+    background-color: white;
+}
+#carrinho article img {
+    float: left;
+    height: 48px;
+    margin: 10px;
+}
